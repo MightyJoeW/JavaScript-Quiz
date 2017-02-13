@@ -14,7 +14,7 @@ function submitAnswers() {
 		for (var i = 1; i <= total; i++) {
 
 			//If we miss one, we output an alert box
-			if(eval('q' + i) == null || eval('q' + i) == ''{
+			if(eval('q' + i) == null || eval('q' + i) == ''){
 				alert('You missed question ' + i);
 				return false;
 			}
@@ -37,6 +37,6 @@ function submitAnswers() {
 		var results = document.getElementById('results');
 
 		results.innerHTML = '<h3> You scored <strong>' + score + '</strong> out of <strong>' + total + '</strong> </h3>';
-		alert('You scored '  + score + 'out of ' + total);
+		alert('You scored '  + score + ' out of ' + total);
 		return false;
 }
