@@ -7,7 +7,7 @@ function submitAnswers() {
 		var q2 = document.forms['quizForm']['q2'].value;
 		var q3 = document.forms['quizForm']['q3'].value;
 		var q4 = document.forms['quizForm']['q4'].value;
-		var q5 = document.forms['quizForm']['q4'].value;
+		var q5 = document.forms['quizForm']['q5'].value;
 
 		//Validation
 			//Looping through the question
